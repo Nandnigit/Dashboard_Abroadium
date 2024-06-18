@@ -18,11 +18,11 @@ const Dashboard = () => {
               <img src="https://clearanceresume.ai/static/media/1.75ff0ba8c05a1fb690b3.png" alt="Resume 1" />
             </div>
             <div className="bg-gray-800 p-5 rounded">
-            <div className=' text-center text-xl font-semibold'>Self Intro</div>
+            <div className=' text-center text-xl font-semibold'>Introduction</div>
               <img src="https://clearanceresume.ai/static/media/1.75ff0ba8c05a1fb690b3.png" alt="Resume 2" />
             </div>
             <div className="bg-gray-800 p-5 rounded">
-            <div className=' text-center text-xl font-semibold'>Resumes</div>
+            <div className=' text-center text-xl font-semibold'>Certification</div>
               <img src="https://clearanceresume.ai/static/media/1.75ff0ba8c05a1fb690b3.png" alt="Resume 3" />
             </div>
           </div>

@@ -2,16 +2,20 @@ import React from 'react';
 import SlidingCard from './Card'
 import Slidercomponent from './Slider'
 import './Home.css'
+import SlidingText from './Slidingtext';
 
 
 
 const Dashboard = () => {
     
   return (
-    <div className=" min-h-screen bg-gray-900 py-10 text-white" id='bghome'>
+    <div className=" min-h-screen w-screen bg-gray-900 py-12 text-white" id='bghome'>
+        
       <main className=" p-4 md:p-10">
+      
         <section>
-          <h2 className="text-2xl mb-5">Resumes</h2>
+        {/* <SlidingText/> */}
+          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-gray-800 p-5 rounded">
                 <div className=' text-center text-xl font-semibold'>Resumes</div>

@@ -106,7 +106,7 @@ const Dashboard = () => {
         </div>
       </div>
       
-      <div className=' px-3 py-5'>
+      {/* <div className=' px-3 py-5'>
         <div className=' flex gap-5 flex-wrap justify-center'>
             <div className=' flex flex-col gap-4 '>
                 <div className=' border-2 px-2 py-2 text-2xl font-bold'>LINKEDIN - LINK - VERIFIED - LAST VERIFY DATE - COIN</div>
@@ -117,7 +117,7 @@ const Dashboard = () => {
                 <div>Google</div>
             </div>
         </div>
-      </div>
+      </div> */}
       
     </div>
   );

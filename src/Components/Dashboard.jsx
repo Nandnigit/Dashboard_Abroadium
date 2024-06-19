@@ -3,6 +3,7 @@ import SlidingCard from './Card'
 import Slidercomponent from './Slider'
 import './Home.css'
 import SlidingText from './Slidingtext';
+import Home_Image from './Home_Image';
 
 
 
@@ -11,37 +12,53 @@ const Dashboard = () => {
   return (
     <div className=" min-h-screen w-screen bg-gray-900 py-12 text-white" id='bghome'>
         
-      <main className=" p-4 md:p-10">
+      <main className=" p-2 md:p-10">
       
         <section>
         <SlidingText/>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <div className="bg-gray-800 p-5 rounded">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-gray-800">
+            <div className=" p-5 rounded">
                 <div className=' text-center text-xl font-semibold'>Resumes</div>
-              <img src="https://clearanceresume.ai/static/media/1.75ff0ba8c05a1fb690b3.png" alt="Resume 1" />
+                <Home_Image/>
+              {/* <img src="https://clearanceresume.ai/static/media/1.75ff0ba8c05a1fb690b3.png" alt="Resume 1" /> */}
             </div>
-            <div className="bg-gray-800 p-5 rounded">
+            <div className=" p-5 rounded">
             <div className=' text-center text-xl font-semibold'>Introduction</div>
-              <img src="https://clearanceresume.ai/static/media/1.75ff0ba8c05a1fb690b3.png" alt="Resume 2" />
+              <img src="https://clearanceresume.ai/static/media/1.75ff0ba8c05a1fb690b3.png" alt="Resume 2" className=' h-[370px]' />
             </div>
-            <div className="bg-gray-800 p-5 rounded">
+            <div className=" p-5 rounded">
             <div className=' text-center text-xl font-semibold'>Certification</div>
-              <img src="https://clearanceresume.ai/static/media/1.75ff0ba8c05a1fb690b3.png" alt="Resume 3" />
+              <img src="https://clearanceresume.ai/static/media/1.75ff0ba8c05a1fb690b3.png" alt="Resume 3" className=' h-[370px]' />
             </div>
           </div>
         </section>
         
       </main>
 
+         <div className=' '>
+            <h1 className=' font-bold text-3xl text-white text-center py-5'>Verify Your Skills </h1>
+            <div className=' text-white flex flex-wrap justify-evenly py-5'>
+                <div className='  shadow-lg bg-gray-600 px-3 py-2 rounded-lg font-bold'> C++</div>
+                <div className='  shadow-lg bg-gray-600 px-3 py-2 rounded-lg font-bold'> React</div>
+                <div className='  shadow-lg bg-gray-600 px-3 py-2 rounded-lg font-bold'> Java</div>
+                <div className='  shadow-lg bg-gray-600 px-3 py-2 rounded-lg font-bold'> Angular</div>
+                <div className='  shadow-lg bg-gray-600 px-3 py-2 rounded-lg font-bold'> Javascript</div>
+                <div className='  shadow-lg bg-gray-600 px-3 py-2 rounded-lg font-bold'> Tailwind/Bootstrap</div>
+                <div className='  shadow-lg bg-gray-600 px-3 py-2 rounded-lg font-bold'> Javascript</div>
+                <div className='  shadow-lg bg-gray-600 px-3 py-2 rounded-lg font-bold'> Tailwind/Bootstrap</div>
+            </div>
+         </div>
+
+
 
       <div className=' py-3'>
         <div className=' px-4 md:px-10 flex flex-wrap gap-3'>
-            <div className='  border-2 w-[300px] px-3 py-4 rounded-xl '>
+            <div className='  border-2 w-[300px] flex flex-col gap-2 align-middle px-3 py-4 rounded-xl '>
                 <div className=' flex flex-col gap-3 rounded-xl  bg-gray-800 px-3 py-4'>
                     <div className=' flex justify-between '>
                         <div className=' border-2 px-4 py-1 rounded-full'>20 May</div>
-                        <div className=' bg-white px-2 py-2 rounded-full text-black'><i class="fa-solid fa-arrow-down"></i></div>
+                        <div className=' bg-white px-2 py-1 rounded-full text-black'><i class="fa-solid fa-arrow-down"></i></div>
                     </div>
                     <div>Amazon</div>
                     <div className=' font-bold text-2xl'>Senior UI/UX Designer</div>
@@ -59,11 +76,11 @@ const Dashboard = () => {
                     <div className=' border-2 px-2 py-2 bg-white text-black rounded-2xl'><button>Details</button></div>
                 </div>
             </div>
-            <div className='  border-2 w-[300px] px-3 py-4 rounded-xl '>
+            <div className='  border-2 w-[300px] flex flex-col gap-2 align-middle  px-3 py-4 rounded-xl '>
                 <div className=' flex flex-col gap-3 rounded-xl  bg-gray-800 px-3 py-4'>
                     <div className=' flex justify-between '>
                         <div className=' border-2 px-4 py-1 rounded-full'>20 May</div>
-                        <div className=' bg-white px-2 py-2 rounded-full text-black'><i class="fa-solid fa-arrow-down"></i></div>
+                        <div className=' bg-white px-2 py-1 rounded-full text-black'><i class="fa-solid fa-arrow-down"></i></div>
                     </div>
                     <div>Amazon</div>
                     <div className=' font-bold text-2xl'>Senior UI/UX Designer</div>
@@ -81,11 +98,11 @@ const Dashboard = () => {
                     <div className=' border-2 px-2 py-2 bg-white text-black rounded-2xl' ><button>Details</button></div>
                 </div>
             </div>
-            <div className='  border-2 w-[300px] px-3 py-4 rounded-xl '>
+            <div className='  border-2 w-[300px] flex flex-col gap-2 align-middle  px-3 py-4 rounded-xl '>
                 <div className=' flex flex-col gap-3 rounded-xl  bg-gray-800 px-3 py-4'>
                     <div className=' flex justify-between '>
                         <div className=' border-2 px-4 py-1 rounded-full'>20 May</div>
-                        <div className=' bg-white px-2 py-2 rounded-full text-black'><i class="fa-solid fa-arrow-down"></i></div>
+                        <div className=' bg-white px-2 py-1 rounded-full text-black'><i class="fa-solid fa-arrow-down"></i></div>
                     </div>
                     <div>Amazon</div>
                     <div className=' font-bold text-2xl'>Senior UI/UX Designer</div>

@@ -14,7 +14,7 @@ const Dashboard = () => {
       <main className=" p-4 md:p-10">
       
         <section>
-        {/* <SlidingText/> */}
+        <SlidingText/>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-gray-800 p-5 rounded">
